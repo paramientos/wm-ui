@@ -3,6 +3,7 @@ ENV NODE_ENV development
 WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
+RUN rm -rf node_modules
 RUN npm install
 COPY . .
 # Expose port
