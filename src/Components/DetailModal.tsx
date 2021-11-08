@@ -33,7 +33,6 @@ class DetailModal extends Component<Props, State> {
     }
 
     render(): JSX.Element {
-        {
             const {show, partner} = this.state;
             const handleClose = () => {
                 this.setState({show: false});
@@ -130,7 +129,6 @@ class DetailModal extends Component<Props, State> {
                     </Modal>
                 </>
             );
-        }
     }
 }
 
