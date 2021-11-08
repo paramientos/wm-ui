@@ -30,3 +30,5 @@ npm install && npm cache clean --force && npm start
 ```
 
 if everything went well, open [http://localhost:3000](http://localhost:3000) on your browser.
+
+If you want to use this project on Production, type `npm run build`
