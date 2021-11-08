@@ -31,7 +31,7 @@ class MapChart extends Component<Props, State> {
         props.partner?.offices.map((office: Office) => {
             const [lat, long] = office.coordinates.split(',');
 
-            markers.push({
+            return markers.push({
                 locationName: office.location,
                 coordinates: [Number(long), Number(lat)]
             })
@@ -44,7 +44,7 @@ class MapChart extends Component<Props, State> {
     }
 
     render() {
-        const {markers, partner} = this.state;
+        const {markers} = this.state;
 
         return (
             <ComposableMap
