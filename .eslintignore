@@ -1,6 +1,0 @@
-"eslintConfig": {
-  "extends": "react-app",
-  "ignorePatterns": [
-    "node_modules/"
-  ]
-}
