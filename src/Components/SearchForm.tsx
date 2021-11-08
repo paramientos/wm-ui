@@ -2,7 +2,6 @@ import React, {Component, ComponentState} from 'react';
 import {Alert, Button, Col, Container, Dropdown, DropdownButton, Form, Row} from "react-bootstrap";
 import Table from "./Table";
 import DetailModal from "./DetailModal";
-import {flushSync} from "react-dom";
 
 interface Props {
 }
