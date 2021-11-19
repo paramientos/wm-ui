@@ -15,7 +15,7 @@
 - You can run this project via Docker, to to this:
 
 ```bash
-git clone https://github.com/soysaltan/wm-ui
+git clone https://github.com/yeminlideveloper/wm-ui
 docker build -t wm/ui ./
 docker run --rm -it -p 3000:3000 --name wm-ui wm/ui
 ```
@@ -25,7 +25,7 @@ or
 - To run on your host, you need to have NodeJs and NPM installed (see **Tech Stack Section**)
 
 ```bash
-git clone https://github.com/soysaltan/wm-ui
+git clone https://github.com/yeminlideveloper/wm-ui
 npm install && npm cache clean --force && npm start
 ```
 
